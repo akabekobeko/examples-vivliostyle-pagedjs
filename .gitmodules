@@ -1,0 +1,6 @@
+[submodule "vivliostyle"]
+	path = vivliostyle
+	url = https://github.com/vivliostyle/vivliostyle_doc
+[submodule "print-css-rocks"]
+	path = print-css-rocks
+	url = https://github.com/zopyx/print-css-rocks
