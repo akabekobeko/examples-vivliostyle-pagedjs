@@ -1,25 +1,26 @@
 {
   "name": "examples-vivliostyle-pagedjs",
-  "version": "1.0.0",
   "description": "Compare and verify Vivliostyle and Paged.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akabekobeko/examples-vivliostyle-pagedjs.git"
-  },
-  "keywords": [
-    "Vivliostyle",
-    "Paged.js"
-  ],
+  "version": "1.0.0",
   "author": "akabeko",
   "license": "MIT",
+  "private": true,
   "bugs": {
     "url": "https://github.com/akabekobeko/examples-vivliostyle-pagedjs/issues"
   },
   "homepage": "https://github.com/akabekobeko/examples-vivliostyle-pagedjs#readme",
+  "keywords": [
+    "Paged.js",
+    "Vivliostyle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akabekobeko/examples-vivliostyle-pagedjs.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@vivliostyle/cli": "^2.1.0",
     "pagedjs": "^0.1.43",
