@@ -4,3 +4,6 @@
 [submodule "print-css-rocks"]
 	path = print-css-rocks
 	url = https://github.com/zopyx/print-css-rocks
+[submodule "cosmology"]
+	path = cosmology
+	url = https://github.com/jagat-xpub/cosmology
