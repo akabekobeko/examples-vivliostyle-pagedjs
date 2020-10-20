@@ -24,20 +24,20 @@ The commands that this project runs are defined as [npm-scripts](https://docs.np
 The command to run the preview is `vp:*` for Vivliostyle and `pp:*` for Paged.js. See `package.json` for `*`.
 
 ```
-$ npm run vp:gon
-$ npm run pp:gon
+$ npm run vp:viv01
+$ npm run pp:viv01
 ```
 
 ## Build
 
-The command to create PDF file is `vb:*` for Vivliostyle and `pb:*` for Paged.js. See `package.json` for `*`. Execute `vivliostyle:build` or `pagedjs:build` to create PDF files in bulk.
+The command to create PDF file is `vb:*` for Vivliostyle and `pb:*` for Paged.js. See `package.json` for `*`. Execute `build:vivliostyle` or `build:pagedjs` to create PDF files in bulk.
 
 ```
-$ npm run vb:gon
-$ npm run pb:gon
+$ npm run vb:viv01
+$ npm run pb:viv01
 
-$ npm run vivliostyle:build
-$ npm run pagedjs:build
+$ npm run build:vivliostyle
+$ npm run build:pagedjs
 ```
 
 ## License
