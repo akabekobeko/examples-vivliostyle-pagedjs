@@ -105,4 +105,4 @@ dist
 
 # Project settings
 package-lock.json
-pdf/*.pdf
+pdf/**/*.pdf
