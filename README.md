@@ -19,22 +19,13 @@ $ git submodule update --init --recursive
 
 The commands that this project runs are defined as [npm-scripts](https://docs.npmjs.com/misc/scripts). Therefore, please prepare an environment where Node.js + npm can be used in advance.
 
-## Preview
-
-The command to run the preview is `vp:*` for Vivliostyle and `pp:*` for Paged.js. See `package.json` for `*`.
-
-```
-$ npm run vp:viv01
-$ npm run pp:viv01
-```
-
 ## Build
 
-The command to create PDF file is `vb:*` for Vivliostyle and `pb:*` for Paged.js. See `package.json` for `*`. Execute `build:vivliostyle` or `build:pagedjs` to create PDF files in bulk.
+The command to create PDF file is `v:*` for Vivliostyle and `p:*` for Paged.js. See `package.json` for `*`. Execute `build:vivliostyle` or `build:pagedjs` to create PDF files in bulk.
 
 ```
-$ npm run vb:viv01
-$ npm run pb:viv01
+$ npm run v:viv01
+$ npm run p:viv01
 
 $ npm run build:vivliostyle
 $ npm run build:pagedjs
