@@ -145,13 +145,11 @@
     "p:css52": "pagedjs-cli ./print-css-rocks/lessons/lesson-tables/index.html -o pdf/pagedjs/css54.pdf",
     "p:css53": "pagedjs-cli ./print-css-rocks/lessons/lesson-texts-rotated-360-degrees/index.html -o pdf/pagedjs/css55.pdf",
     "p:css54": "pagedjs-cli ./print-css-rocks/lessons/lesson-typography/index.html -o pdf/pagedjs/css57.pdf",
-    "clean": "del \"pdf/**/*.pdf\"",
-    "build:vivliostyle:viv": "run-s v:viv*",
-    "build:vivliostyle:css": "run-s v:css*",
-    "build:vivliostyle": "run-s clean build:vivliostyle:*",
-    "build:pagedjs:viv": "run-s p:viv*",
-    "build:pagedjs:css": "run-s p:css*",
-    "build:pagedjs": "run-s clean build:pagedjs:*"
+    "clean:vivliostyle": "del \"pdf/vivliostyle/*.pdf\"",
+    "clean:pagedjs": "del \"pdf/pagedjs/*.pdf\"",
+    "build:vivliostyle": "run-s clean:vivliostyle v:*",
+    "build:pagedjs": "run-s clean:pagedjs p:*",
+    "build": "run-s build:vivliostyle build:pagedj"
   },
   "dependencies": {
     "@vivliostyle/cli": "^2.1.0",
